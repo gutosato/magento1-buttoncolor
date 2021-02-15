@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+	<default>
+		<reference name="head">
+			<block name="buttoncolor" template="buttoncolor/buttoncolor.phtml" type="hibrido_buttoncolor/buttoncolor"/>
+		</reference>
+	</default>
+</layout>

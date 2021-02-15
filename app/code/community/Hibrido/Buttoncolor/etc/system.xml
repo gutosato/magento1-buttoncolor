@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <hibrido>
+            <label>Hibrido</label>
+            <sort_order>1</sort_order>
+        </hibrido>
+    </tabs>
+    <sections>
+        <buttoncolor translate="label">
+            <label>Mudar cor dos botões</label>
+            <tab>hibrido</tab>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <settings>
+                    <label>Configurações</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <hibrido_buttoncolor_active>
+                            <label>Ativar modulo</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </hibrido_buttoncolor_active>
+                        <hibrido_buttoncolor_select_color>
+                            <label>Seleciona a cor desejada</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>color</validate>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><hibrido_buttoncolor_active>1</hibrido_buttoncolor_active></depends>
+                        </hibrido_buttoncolor_select_color>
+                    </fields>
+                </settings>
+            </groups>
+        </buttoncolor>
+    </sections>
+</config>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hibrido_Buttoncolor>
+            <version>1.0.0</version>
+        </Hibrido_Buttoncolor>
+    </modules>
+    <global>
+        <blocks>
+            <hibrido_buttoncolor>
+                <class>Hibrido_Buttoncolor_Block</class>
+            </hibrido_buttoncolor>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <hibrido_buttoncolor>
+                    <file>hibrido_buttoncolor.xml</file>
+                </hibrido_buttoncolor>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <layout>
+            <updates>
+                <basket>
+                    <file>hibrido_buttoncolor_admin.xml</file>
+                </basket>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>
